@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Generated outputs
+assets/training-results.png
+*.mp4
+*.gif
+
+# Legacy prototype files kept locally, not part of cleaned showcase tree
+legacy/
+
+# Large experiment artifacts can be moved to releases for public repos
+# checkpoints/*.pth
